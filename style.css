@@ -1,0 +1,11 @@
+*{
+    padding :2px;
+    margin: 5px;
+    text-orientation: sideways-right;
+  }
+  .container
+  {
+    background-color: rgba(113, 157, 175, 0.249);
+    font-size: medium;
+    text-align:left;
+  }
