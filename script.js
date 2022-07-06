@@ -1,11 +1,11 @@
 function clicked()
 {
   x=prompt("Enter Timezone");
-  alert(x + " cannot be shown..SITE UNDER MAINTENANCE");
+  alert(x + " cannot be shown!!\nSITE UNDER MAINTENANCE");
 }
 function clicked_1()
 {
-  alert("\\\\NOT ACCESSIBLE");
+  alert("NOT ACCESSIBLE");
 }
 let a; 
 let date;
@@ -28,11 +28,4 @@ time = a.getHours() + ":" + a.getMinutes() + ":" + a.getSeconds();
 document.getElementById('time').innerHTML= time + "<br>" + date;
 document.getElementById('time2').innerHTML= ausdate;
 document.getElementById('time3').innerHTML= usdate;
-}, 1000)
-let prevHTML=document.getElementsByTagName('click').innerHTML;
-container.addEventListener('mouseover',function(){
-  document.getElementsByTagName('click').innerHTML="Site Under Maintanence";
-})
-container.addEventListener('mouseout',function(){
-  document.getElementsByTagName('click').innerHTML=prevHTML;
-})
+}, 1000);
